@@ -13,12 +13,12 @@ namespace Oefening20
             priemgetal1 = 0;
             priemgetal2 = 0;
 
-            for (int i = 0; i <= 100; i++)
+            for (int i = 0; i <= input; i++)
             {
                 if (i != 0 || i != 1)
                 {
                     delers1 = 0;
-                    for (int j = 1; j <= 100; j++)
+                    for (int j = 1; j <= input; j++)
                     {
                         if (i % j == 0)
                         {
@@ -29,10 +29,10 @@ namespace Oefening20
                     {
                         //het is een priemgetal 
                         priemgetal1 = i;
-                        for (int k = 0; k < 100; k++)
+                        for (int k = 0; k < input; k++)
                         {
                             delers2 = 0; 
-                            for (int l = 1; l <= 100; l++)
+                            for (int l = 1; l <= input; l++)
                             {
                                 if (k % l == 0)
                                 {
