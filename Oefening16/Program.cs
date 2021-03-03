@@ -23,8 +23,9 @@ namespace Oefening16
                 temp = String.Empty;
                 for (int j = 0; j < i; j++)
                 {
-
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write("*" + " ");
+                    Console.ResetColor();
                     
                 }
 
